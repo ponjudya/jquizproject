@@ -1,0 +1,167 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: #3f565b;
+	color: white;
+	text-align: center;
+}
+
+#navTest {
+	background-color: transparent;
+}
+
+#testTitle {
+	color: transparent;
+	height: 1.5em;
+}
+footer {
+	background-color: #5d8c98;
+}
+body {
+	font-family: 'Jua', sans-serif;
+	background: url("../images/bg3.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+
+}
+
+.form-login {
+	width: 100%;
+	max-width: 200px;
+	padding: 15px;
+	margin: auto;
+	/*border: 1px solid black;*/
+    border-radius: 5px;
+    margin-right:auto; margin-left:auto;
+
+}
+
+.form-header {
+	width: 100%;
+	max-width: 500px;
+	padding: 15px;
+	margin: auto;
+	border: 1px solid black;
+    border-radius: 5px;
+    margin-right:auto; margin-left:auto;
+    text-align: center;
+
+}
+
+
+#jTitle {
+	text-align: right;
+	color: white;
+
+}
+
+
+#quiz {
+	border: 0.15px solid #3f565b;
+	box-shadow: 5px 5px;
+	background-color: white;
+}
+
+#after_submit {
+	align-content: center;
+	border: 0px solid black;
+}
+
+#message,
+#number_correct {
+	text-align: center;
+}
+
+#picture {
+	height: 18em;
+	width: 24em;
+	float: center;
+}
+
+p {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 4em;
+	text-align: center;
+}
+
+#footerText {
+	color: white;
+}
+
+#myFooter {
+	color: white;
+}
+
+#qLink {
+	text-decoration: none;
+}
+
+@font-face { 
+	font-family: double_bubble_shadow-webfont; 
+	src: url('../../double_bubble_shadow-webfont.ttf'); }
+
+.header1{
+	font-family: double_bubble_shadow-webfont;
+	fill: white;
+
+}
+
+#logoQuiz {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+#logo1 {
+	height: 3em;
+	width: 86m;
+}
+path {
+  fill: transparent;
+}
